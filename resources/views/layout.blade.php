@@ -19,9 +19,16 @@ Released   : 20140225
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{ mix('css/app.css') }}" rel="stylesheet" type="text/css" media="all" />
 
 </head>
 <body>
     @yield ('content')
+    
+    <div id="copyright" class="container">
+        <p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+    </div>
+
+    <script src="/js/app.js"></script>
 </body>
 </html>
