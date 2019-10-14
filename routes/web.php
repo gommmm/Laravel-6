@@ -41,4 +41,10 @@ Route::get('/about', function() {
 Route::get('/articles', 'ArticlesController@index');
 Route::get('/articles/{article}', 'ArticlesController@show');
 
-// Route::get('/posts/{post}', 'PostsController@show');
+// GET /articles
+// GET /articles/:id
+// GET /articles/create
+// POST /articles
+// GET /articles/:id/edit
+// PUT /articles/:id/
+// DELETE /articles/:id/
